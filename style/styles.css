@@ -2,3 +2,15 @@
     margin: 0;
     padding: 0;
 }
+
+header{
+    background-color: whitesmoke;
+    display: flex;
+    justify-content: space-between;    
+    
+}
+
+.logo{
+    height: 50px;
+    width: 50px;
+}
