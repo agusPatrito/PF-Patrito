@@ -57,6 +57,31 @@ header{
 
 }
 
+.product-card{
+    margin: 20px;
+    padding: 0;
+    width: 150px;
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: whitesmoke;
+    border-radius: 8px;
+}
+.product-card img{
+    height: 100px;
+    width: 100px;
+    margin-bottom: 10px;
+
+}
+
+.product-card a{
+    text-decoration: none;
+    color: black;
+    font-weight: 500;
+}
+
 
 footer{
     background-color: whitesmoke;
@@ -85,6 +110,7 @@ footer img{
     display: block;
     padding: 5px;
 }
+
 
 
 
@@ -132,5 +158,14 @@ footer img{
         flex-direction: column;
         margin: 30px;
         text-align: center;
+    }
+
+    .product-card{
+        width: 300px;
+        height: 400px;
+    }
+
+    .dropdown-center{
+        margin-top: 70px;
     }
 }
