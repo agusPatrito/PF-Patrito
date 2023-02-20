@@ -142,7 +142,20 @@ footer img{
 
 }
 
+iframe{
+    width: 100%;
+    height: 200px;
+}
 
+.contact-us{
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.contact-us a{
+    text-decoration: none;
+}
 
 
 
@@ -205,6 +218,11 @@ footer img{
 
     .dropdown-center{
         margin-top: 70px;
+    }
+    
+    iframe{
+        width: 100%;
+        height: 800px;
     }
 
 
