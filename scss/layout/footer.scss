@@ -1,0 +1,24 @@
+footer{
+    background-color: whitesmoke;
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    img{
+        height: 50px;
+        width: 50px;
+    }
+    .copyright-text{
+        display: flex;
+        justify-content: center;
+        p{
+            margin-top: 10px;
+        }
+    }
+    .social-media{
+        a{
+            color: black;
+            display: block;
+            padding: 5px;
+        }
+    }
+}
