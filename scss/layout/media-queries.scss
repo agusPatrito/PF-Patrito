@@ -1,0 +1,63 @@
+$desktop: 1400px;
+$ancho: $desktop;
+
+@if $ancho >= $desktop{
+    @media (min-width: 1400px){
+        header{
+            background-color: whitesmoke;
+            width: 100%;
+            display: flex;
+            justify-content: space-between;
+            height: 50px;
+            z-index: 2000;
+            .navbar{
+                background-color: white;
+            }
+            .logo{
+                height: 60px;
+                width: 60px;
+                align-self: center;
+            }
+            .header-list{
+                padding: 20px;
+                a{
+                    font-size: 20px;
+                    margin: 20px;  
+                }
+            }
+        }
+        
+        .container-carousel{
+            width: 80%;
+        }
+        .featured-card{
+            display: flex;
+            flex-direction: column;
+            margin: 30px;
+            text-align: center;
+            img{
+                height: 400px;
+                width: 600px;
+                border-radius: 8px;
+            }
+    
+        }
+    
+        .product-card{
+            width: 300px;
+            height: 400px;
+            img{
+                height: 200px;
+                width: 200px;
+            }
+        }    
+        .dropdown-center{
+            margin-top: 70px;
+        }
+        
+        iframe{
+            width: 100%;
+            height: 800px;
+        }
+    }
+}
