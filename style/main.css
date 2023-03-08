@@ -5,9 +5,9 @@
 header {
   display: flex;
   justify-content: space-between; }
-header .logo {
-  height: 50px;
-  width: 50px; }
+  header .logo {
+    height: 50px;
+    width: 50px; }
 
 .carousel-item h5 {
   font-family: -apple-system, BlinkMacSystemFont, sans-serif; }
@@ -25,10 +25,10 @@ header .logo {
   align-items: center;
   margin: 30px;
   text-align: center; }
-.featured-card img {
-  height: 300px;
-  width: 400px;
-  border-radius: 8px; }
+  .featured-card img {
+    height: 300px;
+    width: 400px;
+    border-radius: 8px; }
 
 .button-1 {
   background-color: white;
@@ -50,35 +50,35 @@ header .logo {
   align-items: center;
   background-color: whitesmoke;
   border-radius: 8px; }
-.product-card img {
-  height: 100px;
-  width: 100px;
-  margin-bottom: 10px; }
-.product-card a {
-  text-decoration: none;
-  color: black;
-  font-weight: 500; }
+  .product-card img {
+    height: 100px;
+    width: 100px;
+    margin-bottom: 10px; }
+  .product-card a {
+    text-decoration: none;
+    color: black;
+    font-weight: 500; }
 
 .presentation-1 {
-  background-image: url(../images/who-are-we.jpg);
+  background-image: url();
   background-position: center;
   background-size: cover;
   color: whitesmoke; }
 
 .presentation-2 {
-  background-image: url(../images/who\ are\ we.jpg);
+  background-image: url();
   background-position: center;
   background-size: cover;
   color: whitesmoke; }
 
 .presentation-3 {
-  background-image: url(../images/sustaintability.jpg);
+  background-image: url();
   background-position: center;
   background-size: cover;
   color: whitesmoke; }
 
 .presentation-4 {
-  background-image: url(../images/team.jpg);
+  background-image: url();
   background-position: center;
   background-size: cover;
   color: whitesmoke; }
@@ -93,24 +93,23 @@ iframe {
 .contact-us a {
   text-decoration: none; }
 
-
 footer {
   background-color: whitesmoke;
   height: 300px;
   display: flex;
   justify-content: center; }
-footer img {
-  height: 50px;
-  width: 50px; }
-footer .copyright-text {
-  display: flex;
-  justify-content: center; }
-footer .copyright-text p {
-  margin-top: 10px; }
-footer .social-media a {
-  color: black;
-  display: block;
-  padding: 5px; }
+  footer img {
+    height: 50px;
+    width: 50px; }
+  footer .copyright-text {
+    display: flex;
+    justify-content: center; }
+    footer .copyright-text p {
+      margin-top: 10px; }
+  footer .social-media a {
+    color: black;
+    display: block;
+    padding: 5px; }
 
 @media (min-width: 1400px) {
   header {
@@ -120,17 +119,17 @@ footer .social-media a {
     justify-content: space-between;
     height: 50px;
     z-index: 2000; }
-  header .navbar {
-    background-color: white; }
-  header .logo {
-    height: 60px;
-    width: 60px;
-    align-self: center; }
-  header .header-list {
-    padding: 20px; }
-  header .header-list a {
-    font-size: 20px;
-    margin: 20px; }
+    header .navbar {
+      background-color: white; }
+    header .logo {
+      height: 60px;
+      width: 60px;
+      align-self: center; }
+    header .header-list {
+      padding: 20px; }
+      header .header-list a {
+        font-size: 20px;
+        margin: 20px; }
   .container-carousel {
     width: 80%; }
   .featured-card {
@@ -145,38 +144,11 @@ footer .social-media a {
   .product-card {
     width: 300px;
     height: 400px; }
-  .product-card img {
-    height: 200px;
-    width: 200px; }
+    .product-card img {
+      height: 200px;
+      width: 200px; }
   .dropdown-center {
     margin-top: 70px; }
   iframe {
     width: 100%;
-    height: 800px; } 
-}
-
-.button-1:hover{
-  background-color: black;
-  color: white;
-
-}
-
-.nav-link:hover{
-  text-decoration: underline;
-
-}
-
-
-.pic{
-  transition: 1s;
-  transform: scale(1);
-}
-.pic:hover{
-  transition: 1s;
-  transform: scale(1.01);
-}
-
-.product-link:hover{
-  text-decoration: underline;
-
-}
+    height: 800px; } }
