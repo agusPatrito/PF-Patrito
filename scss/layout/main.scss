@@ -1,4 +1,9 @@
-
+$images: (
+    1:url(/images/who-are-we.jpg),
+    2:url(/images/who\are\we.jpg),
+    3:url(/images/sustaintability.jpg),
+    4:url(/images/team.jpg)
+);
 .carousel-item{
     h5{
         font-family: -apple-system, BlinkMacSystemFont, sans-serif;
@@ -62,15 +67,19 @@
     }
 }
 
-@for $i from 1 through 4 {
-    .presentation-#{$i}{
-        background-image: url();
+
+@each $number, $valor in $images {
+    .presentation-#{$number} {
+        background-image: $valor;
         background-position: center;
         background-size: cover;
         color: whitesmoke;
-    }
 
+    }
 }
+
+
+
 
 iframe{
     width: 100%;
