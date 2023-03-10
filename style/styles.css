@@ -114,14 +114,14 @@ footer img{
 }
 
 .presentation-1{
-    background-image: url(../images/who-are-we.jpg);
+    background-image: url();
     background-position: center;
     background-size: cover;
     color: whitesmoke;
 
 }
 .presentation-2{
-    background-image: url(../images/who\ are\ we.jpg);
+    background-image: url();
     background-position: center;
     background-size: cover;
     color: whitesmoke;
@@ -129,14 +129,14 @@ footer img{
 }
 
 .presentation-3{
-    background-image: url(../images/sustaintability.jpg);
+    background-image: url();
     background-position: center;
     background-size: cover;
     color: whitesmoke;
 }
 
 .presentation-4{
-    background-image: url(../images/team.jpg);
+    background-image: url();
     background-position: center;
     background-size: cover;
     color: whitesmoke;
