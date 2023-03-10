@@ -1,0 +1,31 @@
+.button-1{
+    :hover{
+        background-color: black;
+        color: white;
+    }
+    
+}
+.nav-link{
+    :hover{
+        text-decoration: underline;
+    
+    }
+}
+
+
+.pic{
+    transition: 1s;
+    transform: scale(1);
+    :hover{
+        transition: 1s;
+        transform: scale(1.01);
+    }
+}
+
+
+.product-link{
+    :hover{
+        text-decoration: underline;
+    
+    }
+}
