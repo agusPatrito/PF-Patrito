@@ -1,8 +1,11 @@
 footer{
     background-color: whitesmoke;
-    height: 300px;
+    height: 200px;
+    width: 100%;
     display: flex;
     justify-content: center;
+    position: absolute;
+    left: 0px;
     img{
         height: 50px;
         width: 50px;
